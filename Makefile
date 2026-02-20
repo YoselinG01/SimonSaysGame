@@ -7,8 +7,8 @@ CFLAGS = -Wall -Wextra -std=c99
 # Target executable
 TARGET = simonsays
 
-# Source files (in src folder)
-SRC = src/main.c
+# Source files (in current folder)
+SRC = main.c
 
 # Default rule
 all: $(TARGET)
